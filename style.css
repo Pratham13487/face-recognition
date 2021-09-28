@@ -1,0 +1,97 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-family: 'Goldman', cursive;
+    font-size: 23px;
+    background-color: forestgreen;
+
+    animation-name: changecolors;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes changecolors{
+    0%{
+      color: blue;
+    }
+    25%{
+      color: darkblue;
+    }
+    50%{
+      color: hotpink;
+    }
+    75%{
+      color: purple;
+    }
+    100%{
+      color: blue;
+    }
+  }
+  .heading_div
+  {
+    background: rgb(214, 209, 209) ; 
+    border-radius: 20px; 
+    color: white;
+    box-shadow:5px 5px 5px grey;
+    float: none;
+    padding: 10px;
+
+
+    animation-name: changecolorsbox;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+
+  }
+  @keyframes changecolorsbox{
+    0%{
+      color: red;
+    }
+    20%{
+      color: yellow;
+    }
+    40%{
+      color: green;
+    }
+    60%{
+      color: purple;
+    }
+    80%{
+      color: blue;
+    }
+    100%{
+      color: aqua;
+    }
+    
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+  
+  
+ .result_para_tag span{
+   white-space: pre-line;
+ }
+ .copy_right_footer{
+   position: fixed ;
+   color: red;
+   background-color: aqua;
+   bottom: 0;
+   width: 100%;
+   line-height: 3;
+   text-align: center;
+
+ }
+ canvas{
+   border: 5px solid white;
+   border-radius: 20px;
+   box-shadow:5px 5px 5px grey;
+   margin-top: 160px;
+ }
